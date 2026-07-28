@@ -48,44 +48,7 @@ Complete workflow built in n8n, including validation, company enrichment, AI qua
 
 ---
 
-# Workflow
-
-```text
-Receive Lead (Webhook)
-        ↓
-Normalize Input
-        ↓
-Validate Contact
-        ↓
-Enrich Company (DaData)
-        ↓
-Normalize Company Data
-        ↓
-Check Company Status
-        ↓
-Check Required Company Data
-        ↓
-Find Existing Company
-        ↓
-Company Exists?
-      ↙             ↘
-Yes               No
- │                  ↓
- │        Create Company Record
- └──────────────┬───────────────
-                ↓
-Prepare Lead Context
-        ↓
-LLM Lead Analysis
-        ↓
-Create Lead Record
-        ↓
-Notify Sales Manager
-```
-
----
-
-## 💬 Demo
+## Demo
 
 ### API Request
 
