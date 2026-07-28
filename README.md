@@ -123,18 +123,6 @@ The sales manager instantly receives a structured notification containing the le
 
 ---
 
-# Repository Structure
-
-```text
-README.md
-architecture.png
-workflow.png
-telegram-demo.png
-google-sheets-demo.png
-```
-
----
-
 # Future Improvements
 
 - CRM integration (HubSpot, Bitrix24, Salesforce)
