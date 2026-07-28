@@ -42,7 +42,9 @@ It enriches company information using DaData, validates business data, checks th
 
 # Workflow Architecture
 
-*(Workflow architecture screenshot)*
+Complete workflow built in n8n, including validation, company enrichment, AI qualification, CRM storage, and manager notification.
+
+![Workflow Architecture](workflow.png)
 
 ---
 
@@ -90,22 +92,6 @@ Notify Sales Manager
 A new lead is sent to the system via an HTTP POST request using Bruno.
 
 ![API Request](bruno-request.jpg)
-
----
-
-### Webhook Reception
-
-The webhook successfully receives the incoming lead and starts the workflow execution.
-
-![Webhook Reception](webhook-receive.png)
-
----
-
-### Workflow Architecture
-
-Complete workflow built in n8n, including validation, company enrichment, AI qualification, CRM storage, and manager notification.
-
-![Workflow Architecture](workflow.png)
 
 ---
 
