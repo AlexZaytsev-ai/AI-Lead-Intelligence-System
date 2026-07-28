@@ -132,3 +132,12 @@ The sales manager instantly receives a structured notification containing the le
 - Lead scoring analytics
 - Multi-channel lead intake (Email, Telegram, Website)
 - Dashboard for sales managers
+
+## Author
+
+**Alexander Zaytsev**
+
+AI Automation Engineer
+
+- GitHub: https://github.com/AlexZaytsev-ai
+- Email: polonix315@gmail.com
