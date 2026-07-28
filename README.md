@@ -85,43 +85,51 @@ Notify Sales Manager
 
 ## 💬 Demo
 
-### Incoming Lead
+### API Request
 
-Incoming lead sent through Bruno to the webhook.
+A new lead is sent to the system via an HTTP POST request using Bruno.
 
-![Incoming Lead](bruno-demo.png)
-
----
-
-### Workflow Execution
-
-The complete workflow execution inside n8n.
-
-![Workflow Execution](workflow-demo.png)
+![API Request](bruno-request.jpg)
 
 ---
 
-### AI Qualification
+### Webhook Reception
 
-The AI analyzes the lead, determines customer intent, estimates lead quality, assigns priority, and generates a structured summary.
+The webhook successfully receives the incoming lead and starts the workflow execution.
 
-![AI Qualification](ai-analysis.png)
+![Webhook Reception](webhook-receive.png)
 
 ---
 
-### Lead Stored in Google Sheets
+### Workflow Architecture
 
-Structured lead data is automatically stored in Google Sheets.
+Complete workflow built in n8n, including validation, company enrichment, AI qualification, CRM storage, and manager notification.
 
-![Google Sheets](google-sheets-demo.png)
+![Workflow Architecture](workflow.png)
+
+---
+
+### AI Lead Qualification
+
+The AI analyzes the incoming lead, identifies the customer's business need, evaluates lead quality, assigns priority, and generates a structured summary.
+
+![AI Lead Qualification](ai-analysis.jpg)
+
+---
+
+### Lead Repository
+
+The processed lead is automatically stored in Google Sheets as a structured CRM record.
+
+![Lead Repository](lead-repository.jpg)
 
 ---
 
 ### Telegram Notification
 
-Sales manager instantly receives a structured notification in Telegram.
+The sales manager instantly receives a structured notification containing the lead qualification results.
 
-![Telegram](telegram-demo.png)
+![Telegram Notification](telegram-notification.jpg)
 
 # Features
 
