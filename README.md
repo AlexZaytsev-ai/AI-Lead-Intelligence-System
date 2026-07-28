@@ -83,53 +83,45 @@ Notify Sales Manager
 
 ---
 
-# Demo
+## 💬 Demo
 
-## Incoming Lead
+### Incoming Lead
 
-```text
-Name:
-Ivan Petrov
+Incoming lead sent through Bruno to the webhook.
 
-Company:
-ООО СтройТех
-
-Message:
-"We want to implement a CRM system and automate lead processing."
-```
-
-↓
-
-## AI Qualification
-
-```text
-Need:
-CRM implementation and workflow automation
-
-Priority:
-High
-
-Score:
-9/10
-
-Summary:
-Potential customer interested in CRM implementation.
-
-Reason:
-The customer clearly described a business need and requested automation services.
-```
-
-↓
-
-## Output
-
-- Company enriched using DaData
-- Company automatically added to repository (if not found)
-- Lead qualified by AI
-- Lead stored in Google Sheets
-- Sales manager notified in Telegram
+![Incoming Lead](bruno-demo.png)
 
 ---
+
+### Workflow Execution
+
+The complete workflow execution inside n8n.
+
+![Workflow Execution](workflow-demo.png)
+
+---
+
+### AI Qualification
+
+The AI analyzes the lead, determines customer intent, estimates lead quality, assigns priority, and generates a structured summary.
+
+![AI Qualification](ai-analysis.png)
+
+---
+
+### Lead Stored in Google Sheets
+
+Structured lead data is automatically stored in Google Sheets.
+
+![Google Sheets](google-sheets-demo.png)
+
+---
+
+### Telegram Notification
+
+Sales manager instantly receives a structured notification in Telegram.
+
+![Telegram](telegram-demo.png)
 
 # Features
 
