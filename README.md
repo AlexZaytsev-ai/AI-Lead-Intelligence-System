@@ -4,7 +4,7 @@ Automatically enriches incoming B2B leads with company data, qualifies them usin
 
 ---
 
-# 📌 Business Problem
+# Business Problem
 
 Sales teams often receive incomplete or unqualified leads from websites, landing pages, and contact forms.
 
@@ -22,7 +22,7 @@ These repetitive tasks slow down response time and reduce sales efficiency.
 
 ---
 
-# 🚀 Solution Overview
+# Solution Overview
 
 This workflow automatically processes every incoming lead.
 
@@ -30,13 +30,13 @@ It enriches company information using DaData, validates business data, checks th
 
 ---
 
-# 🏗 Workflow Architecture
+# Workflow Architecture
 
 *(Workflow architecture screenshot)*
 
 ---
 
-# 🔄 Workflow
+# Workflow
 
 ```text
 Receive Lead (Webhook)
@@ -73,7 +73,7 @@ Notify Sales Manager
 
 ---
 
-# 💬 Demo
+# Demo
 
 ## Incoming Lead
 
@@ -121,7 +121,7 @@ The customer clearly described a business need and requested automation services
 
 ---
 
-# ✨ Features
+# Features
 
 - Automatic lead intake via Webhook
 - Company enrichment with DaData API
@@ -136,7 +136,7 @@ The customer clearly described a business need and requested automation services
 
 ---
 
-# 🛠 Tech Stack
+# Tech Stack
 
 - n8n
 - OpenAI GPT-4.1 Mini
@@ -147,7 +147,7 @@ The customer clearly described a business need and requested automation services
 
 ---
 
-# 🎯 Key Skills Demonstrated
+# Key Skills Demonstrated
 
 - AI Workflow Design
 - Business Process Automation
@@ -164,7 +164,7 @@ The customer clearly described a business need and requested automation services
 
 ---
 
-# 📂 Repository Structure
+# Repository Structure
 
 ```text
 README.md
@@ -176,7 +176,7 @@ google-sheets-demo.png
 
 ---
 
-# 🔮 Future Improvements
+# Future Improvements
 
 - CRM integration (HubSpot, Bitrix24, Salesforce)
 - Duplicate lead detection
