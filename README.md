@@ -115,7 +115,7 @@ The processed lead is automatically stored in Google Sheets as a structured CRM 
 
 The sales manager instantly receives a structured notification containing the lead qualification results.
 
-![Telegram Notification](telegram-notification..jpg)
+![Telegram Notification](telegram-notification.jpg)
 
 # Features
 
