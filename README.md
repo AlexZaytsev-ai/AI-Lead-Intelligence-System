@@ -22,6 +22,14 @@ These repetitive tasks slow down response time and reduce sales efficiency.
 
 ---
 
+# 👥 Target Users
+
+- Sales teams
+- B2B companies
+- CRM administrators
+- Business owners
+
+
 # Solution Overview
 
 This workflow automatically processes every incoming lead.
